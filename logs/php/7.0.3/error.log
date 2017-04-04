@@ -1,0 +1,14 @@
+[04-Apr-2017 20:27:55 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_head() in /app/public/wp-content/themes/watie/index.php:3
+Stack trace:
+#0 /app/public/wp-includes/template-loader.php(74): include()
+#1 /app/public/wp-blog-header.php(19): require_once('/app/public/wp-...')
+#2 /app/public/index.php(17): require('/app/public/wp-...')
+#3 {main}
+  thrown in /app/public/wp-content/themes/watie/index.php on line 3
+[04-Apr-2017 20:27:56 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_head() in /app/public/wp-content/themes/watie/index.php:3
+Stack trace:
+#0 /app/public/wp-includes/template-loader.php(74): include()
+#1 /app/public/wp-blog-header.php(19): require_once('/app/public/wp-...')
+#2 /app/public/index.php(17): require('/app/public/wp-...')
+#3 {main}
+  thrown in /app/public/wp-content/themes/watie/index.php on line 3
