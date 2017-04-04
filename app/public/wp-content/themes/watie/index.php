@@ -1,6 +1,6 @@
 <?php
 
-get_head(); ?>
+get_header(); ?>
 
 <div >
 
