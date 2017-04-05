@@ -7,6 +7,12 @@ Text Domain: WatieWhite
 Tags: gallery, artist
 */
 
+.landing-image {
+	background-image: url("./images/2 Holy Island Sirens.jpg");
+	background-size: cover;
+	position: 50%, 50%;
+}
+
 body {
 
 }
