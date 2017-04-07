@@ -2,34 +2,152 @@
 Theme Name: Watie
 Author: Aaron Steward and Ben Fairbanks
 Description: Custom theme created for artist Watie White
+Template: twentyseventeen
 Version: 1.0.0
 Text Domain: WatieWhite
 Tags: gallery, artist
 */
 
+@import url("https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css");
+@import url("https://fonts.googleapis.com/css?family=Josefin+Sans|Titillium+Web");
+
 .landing-image {
-	background-image: url("./images/2 Holy Island Sirens.jpg");
+	margin: 0px;
+	background-image: url("/wp-content/uploads/2017/04/3-Holy-Island-Visitors.jpg");
+	position: relative;
 	background-size: cover;
-	position: 50%, 50%;
+	background-position: 50%, 50%;
+	height: 100vh;
 }
 
 .landing-button {
 	background-color: rgba(0, 0, 0, 0);
 	color: rgba(255, 255, 255, 100);
 	border-color: rgba(255, 255, 255, 100);
+	border-width: 2px !important;
 	border-radius: 2px;
 	border-style: solid;
-	border-width: 4px;
 	position: absolute;
 	top: 50%;
+	font-family: "Josefin Sans", sans;
+	letter-spacing: 4px;
+	padding: 12px 20px;
+	text-transform: uppercase;
+	margin-left: 42%;
+	-webkit-transition: .25s;
+	transition: .25s;
 }
 
 .landing-button:hover {
 	background-color: rgba(255, 255, 255, 100);
 	color: rgba(0, 0, 0, 100);
-	border-color: rgba(0, 0, 0, 100);
+}
+
+.contact {
+	font-family: "Titillium Web", sans;
+}
+
+.social {
+	font-size: .8em;
+	font-weight: bold;
+}
+
+.social-link {
+	color: rgba(0, 0, 0, 100);
+}
+
+.social-link:hover {
+	color: rgba(150, 150, 150, 100);
+	text-decoration: none;
+}
+
+.cv {
+	font-family: "Titillium Web", sans;
+	font-size: 10px;
+}
+
+.cv-name {
+	text-transform: uppercase;
+	font-weight: 900;
+	}
+
+.cat-head {
+	font-weight: bold;
+	font-style: italic;
+}
+
+.cv-date {
+	letter-spacing: 2px;
+	font-size: 1.2em;
+}
+
+.cv-title {
+	font-weight: 800;
+	font-size: 1.2em;
+}
+
+.slideshow{
+	max-width: 1000px;
+ 	position: relative;
+ 	margin: auto;
+}
+
+.my_slide{
+	display: none;
+}
+
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+}
+
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+ 	from {opacity: 1} 
+ 	to {opacity: .4}
+}
+
+@keyframes fade {
+ 	from {opacity: 1} 
+ 	to {opacity: .4}
 }
 
 body {
+	margin: 0px;
+}
 
+.content-wrapper {
+	padding: 12px;
+}
+
+.post-wrapper-tall {
+	height: 90vh;
+}
+
+.post-wrapper-wide {
+	width: 60vh;
+}
+
+.foot-spacer {
+	height: 28px;
 }

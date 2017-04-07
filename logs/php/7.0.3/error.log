@@ -16,3 +16,16 @@ Stack trace:
 [05-Apr-2017 16:29:42 UTC] PHP Parse error:  syntax error, unexpected 'endif' (T_ENDIF) in /app/public/wp-content/themes/watie/index.php on line 6
 [05-Apr-2017 16:36:35 UTC] PHP Parse error:  syntax error, unexpected 'endwhile' (T_ENDWHILE), expecting elseif (T_ELSEIF) or else (T_ELSE) or endif (T_ENDIF) in /app/public/wp-content/themes/watie/index.php on line 6
 [05-Apr-2017 16:45:10 UTC] PHP Parse error:  syntax error, unexpected '<' in /app/public/wp-content/themes/watie/index.php on line 8
+[05-Apr-2017 19:17:49 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function watie() in /app/public/wp-content/themes/watie/header.php:11
+Stack trace:
+#0 /app/public/wp-includes/template.php(684): require_once()
+#1 /app/public/wp-includes/template.php(643): load_template('/app/public/wp-...', true)
+#2 /app/public/wp-includes/general-template.php(45): locate_template(Array, true)
+#3 /app/public/wp-content/themes/watie/index.php(1): get_header()
+#4 /app/public/wp-includes/template-loader.php(74): include('/app/public/wp-...')
+#5 /app/public/wp-blog-header.php(19): require_once('/app/public/wp-...')
+#6 /app/public/index.php(17): require('/app/public/wp-...')
+#7 {main}
+  thrown in /app/public/wp-content/themes/watie/header.php on line 11
+[06-Apr-2017 15:09:47 UTC] PHP Parse error:  syntax error, unexpected 'endwhile' (T_ENDWHILE), expecting elseif (T_ELSEIF) or else (T_ELSE) or endif (T_ENDIF) in /app/public/wp-content/themes/watie/page-public-art.php on line 22
+[06-Apr-2017 15:10:07 UTC] PHP Parse error:  syntax error, unexpected 'endwhile' (T_ENDWHILE), expecting elseif (T_ELSEIF) or else (T_ELSE) or endif (T_ENDIF) in /app/public/wp-content/themes/watie/page-public-art.php on line 23

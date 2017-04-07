@@ -1,8 +1,8 @@
-<?php get_header(); ?>
-
+<?php get_header(); ?> 
 <div class="landing-image">
+	<div id="button-wrapper">
+		<a href="/index" class="btn landing-button">Watie White</a>
+	</div>
 </div>
-
-<center><a href="#" class="btn landing-button">Watie White</a></center>
 
 <?php get_footer(); ?>
