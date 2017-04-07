@@ -10,6 +10,7 @@ Tags: gallery, artist
 
 @import url("https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css");
 @import url("https://fonts.googleapis.com/css?family=Josefin+Sans|Titillium+Web");
+@import "css/style.css";
 
 .landing-image {
 	margin: 0px;
